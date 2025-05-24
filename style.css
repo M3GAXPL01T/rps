@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.hands {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.hand {
+  margin: 0 40px;
+}
+
+.hand-display {
+  font-size: 60px;
+  margin-top: 10px;
+  min-height: 60px;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cheat-code {
+  margin-top: 20px;
+}
+
+#cheat-input {
+  padding: 8px;
+  font-size: 14px;
+  width: 200px;
+}
+
+.cheat-code button {
+  padding: 8px 14px;
+  font-size: 14px;
+  margin-left: 8px;
+  cursor: pointer;
+} 

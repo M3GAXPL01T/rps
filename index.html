@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="hands">
+      <div class="hand">
+        <h2>Human</h2>
+        <div id="human-hand" class="hand-display">🤔</div>
+      </div>
+
+      <div class="hand">
+        <h2>AI</h2>
+        <div id="ai-hand" class="hand-display">🤖</div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button onclick="playGame('rock')">Rock</button>
+      <button onclick="playGame('paper')">Paper</button>
+      <button onclick="playGame('scissors')">Scissors</button>
+    </div>
+
+    <div class="cheat-code">
+      <input type="text" id="cheat-input" placeholder="Enter secret code..." />
+      <button onclick="submitCheat()">Submit</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
